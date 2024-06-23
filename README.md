@@ -20,13 +20,11 @@ This script is designed to help manage and clean up old backup files from Google
 
 ## Usage
 1. **Configure rclone::**
- Ensure that rclone is configured to access your Google Drive. You can follow the rclone configuration guide.
+- Ensure that rclone is configured to access your Google Drive. You can follow the rclone configuration guide.
 
 2. **Run the script::**
     ```bash
     ./delete_old_backups.sh
-
-
 
 The script will:
 - List all .json, .tar, and .sql.gz files in the specified backup directory .

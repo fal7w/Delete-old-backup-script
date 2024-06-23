@@ -1,4 +1,4 @@
-# Delete Old Backup on Google Drive
+# Delete old backup
 
 This script is designed to help manage and clean up old backup files from Google Drive. It deletes `.json`, `.tar`, and `.sql.gz` files that are older than one month from the date of the newest file in the specified backup directory.
 

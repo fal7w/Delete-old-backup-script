@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Define the backup directory on Google Drive
-backup_dir="googleDrive4:/ExchangeCompany backup"
+backup_dir="gdrive:/path/to/backup"
 
 # List files with the desired extensions and sort by date
 rclone lsl "$backup_dir" | grep -E '\.json$|\.tar$|\.sql.gz$' | sort -k2,3 > files.txt

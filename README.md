@@ -29,7 +29,7 @@ This script is designed to help manage and clean up old backup files from Google
 
 
 The script will:
-    - List all .json, .tar, and .sql.gz files in the specified backup directory .
-    - Identify the newest file and calculate a threshold date one month before the first day of the month of the newest files date.
-    - Delete files older than the threshold date.
+- List all .json, .tar, and .sql.gz files in the specified backup directory .
+- Identify the newest file and calculate a threshold date one month before the first day of the month of the newest files date.
+- Delete files older than the threshold date.
 

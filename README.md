@@ -25,7 +25,10 @@ This script is designed to help manage and clean up old backup files from Google
 2. **Run the script::**
     ```bash
     ./delete_old_backups.sh
-   The script will:
+
+
+
+The script will:
     - List all .json, .tar, and .sql.gz files in the specified backup directory .
     - Identify the newest file and calculate a threshold date one month before the first day of the month of the newest files date.
     - Delete files older than the threshold date.

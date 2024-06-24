@@ -43,8 +43,8 @@ This command will start an interactive setup process. Here's a step-by-step guid
     - List files and directories:
         ```bash
          rclone ls gdrive:
-
-         Replace gdrive with the name of your remote.
+        
+    Replace gdrive with the name of your remote.
          
 ## Clone
 
